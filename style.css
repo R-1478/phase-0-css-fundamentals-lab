@@ -3,3 +3,25 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+figure { 
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+figcaption {
+  font-size: medium;
+}
+nav {
+  text-align: center ;
+}
+section#featured-property + p{
+width: 800px ;
+ text-align: center ; 
+}
+details + div{
+  margin: auto;
+  float: left;
+}
